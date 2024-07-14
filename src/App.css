@@ -1,0 +1,24 @@
+#mainWrapper,
+#mainWrapper2 {
+  display: flex;
+  position: relative;
+  left: -100px;
+  transition: 1s;
+}
+#mainWrapper2 {
+  left: 0px;
+}
+#mostMainDiv {
+  min-width: 100% !important;
+}
+#sideBar {
+  min-width: 100px;
+}
+.app-container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
